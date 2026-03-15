@@ -5,115 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - Migraine Tracker AI</title>
     <style>
-        body {
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 30px;
-            background-color: #f4f7f9;
-        }
-        .container {
-            background-color: #ffffff;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-        }
-        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; margin-bottom: 5px; }
-        .effective-date { color: #7f8c8d; margin-bottom: 30px; font-style: italic; }
-        h2 { color: #2980b9; margin-top: 35px; border-left: 4px solid #3498db; padding-left: 15px; font-size: 1.4em; }
-        p, li { margin-bottom: 12px; }
-        strong { color: #000; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 30px; background-color: #f4f7f9; }
+        .container { background-color: #ffffff; padding: 40px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #2980b9; margin-top: 30px; border-left: 4px solid #3498db; padding-left: 15px; }
+        .effective-date { color: #7f8c8d; font-style: italic; margin-bottom: 20px; }
+        .disclaimer-box { background-color: #fff5f5; border: 1px solid #feb2b2; padding: 20px; border-radius: 6px; margin: 20px 0; color: #c53030; font-weight: 500; }
+        .highlight-box { background-color: #eef7ff; border: 1px solid #d1e9ff; padding: 15px; border-radius: 6px; margin: 20px 0; }
         ul { padding-left: 20px; }
-        .highlight-box {
-            background-color: #eef7ff;
-            border: 1px solid #d1e9ff;
-            padding: 15px;
-            border-radius: 6px;
-            margin: 20px 0;
-        }
-        .disclaimer-box {
-            background-color: #fff5f5;
-            border: 1px solid #feb2b2;
-            padding: 20px;
-            border-radius: 6px;
-            margin: 20px 0;
-            color: #c53030;
-        }
-        .footer-info {
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #eee;
-            font-size: 0.95em;
-        }
+        li { margin-bottom: 10px; }
         a { color: #3498db; text-decoration: none; }
-        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
 
 <div class="container">
     <h1>Privacy Policy</h1>
-    <p><strong>Migraine Tracker AI – Headache Diary & Trigger Analyzer</strong></p>
-    <p class="effective-date">Effective Date: March 12, 2026</p>
+    <p class="effective-date">Last Updated: March 15, 2026</p>
 
     <div class="disclaimer-box">
-        <strong>MEDICAL DISCLAIMER:</strong> This Application is a tracking tool for informational purposes only. It is <strong>NOT</strong> a medical device and does not provide medical advice, diagnosis, or treatment. The AI-generated insights are patterns based on your logs and should not be treated as clinical diagnosis. Always seek the advice of a physician or other qualified health provider with any questions you may have regarding a medical condition.
+        MEDICAL DISCLAIMER: Migraine Tracker AI is NOT a medical device. The information provided by this Application, including AI-generated insights and trigger analysis, is for informational and educational purposes only. It is not intended as a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
     </div>
 
-    <p>This Privacy Policy applies to the <strong>Migraine Tracker AI</strong> mobile application (hereinafter referred to as the “Application”) developed by <strong>Sergey Medvedev</strong> (“Developer”, “we”, “us”, or “our”).</p>
+    <p>This Privacy Policy describes how <strong>Sergey Medvedev</strong> ("we", "us", "our", or "Developer") manages, collects, and protects the information of users ("User", "you") of the <strong>Migraine Tracker AI</strong> mobile application.</p>
 
-    <h2>1. Information Collection and Health Data</h2>
-    <p>The Application is designed to track migraine episodes and symptoms. You may voluntarily enter <strong>Sensitive Personal Information</strong>, including:</p>
+    <h2>1. Types of Data We Process</h2>
+    <p>We recognize the sensitive nature of health-related data. Our Application is designed to provide you with maximum privacy.</p>
+    
+    <h3>A. User-Provided Health Data (Sensitive Information)</h3>
+    <p>You may voluntarily enter information about your health, including:</p>
     <ul>
-        <li>Headache date, time, duration, and pain severity.</li>
-        <li>Pain location and associated symptoms (nausea, aura, etc.).</li>
-        <li>Potential triggers (diet, sleep, stress, weather).</li>
-        <li>Personal notes related to your condition.</li>
+        <li>Date and time of migraine attacks, pain intensity (0-10 scale).</li>
+        <li>Physical symptoms (nausea, aura, light/sound sensitivity).</li>
+        <li>Personal lifestyle triggers (sleep patterns, diet, stress levels, weather).</li>
+        <li>Location of pain and notes regarding medications or relief methods.</li>
     </ul>
     <div class="highlight-box">
-        <strong>Data Sovereignty:</strong> All health-related logs are <strong>stored locally on your device only</strong> (Android Room Database). We do not collect, transmit, or store this sensitive data on our own servers. You have full control over your data.
+        <strong>LOCAL STORAGE POLICY:</strong> All the health data mentioned above is stored <strong>locally on your mobile device</strong> using a secure Android Room Database. We do not transmit, upload, or store this sensitive health data on our servers.
     </div>
 
-    <h2>2. Artificial Intelligence (AI) Processing</h2>
-    <p>The Application features an "AI Trigger Analyzer". When you use this feature:</p>
+    <h3>B. AI Analysis Data</h3>
+    <p>When you use the "AI Trigger Analyzer" feature, the Application processes snippets of your log data to identify patterns. 
     <ul>
-        <li>Only <strong>anonymized excerpts</strong> of your logs (e.g., "Attack after 5h sleep") are sent to Google Gemini API for pattern recognition.</li>
-        <li>No personally identifiable information (PII) is included in these requests.</li>
-        <li>This data is processed temporarily and is not retained by the Developer.</li>
+        <li>This processing is done using the <strong>Google Gemini API</strong>.</li>
+        <li>Only anonymized, non-identifiable data points are sent for processing.</li>
+        <li>We do not link your identity to the data sent for AI analysis.</li>
     </ul>
 
-    <h2>3. Automatically Collected Data</h2>
-    <p>To ensure app stability and improve user experience, we use third-party tools that collect non-identifiable technical data:</p>
+    <h2>2. Automatically Collected Technical Information</h2>
+    <p>For the purpose of app optimization and monetization, the Application collects certain non-personal information through third-party services:</p>
     <ul>
-        <li><strong>Firebase Crashlytics & Analytics:</strong> Device info, crash logs, and basic usage patterns.</li>
-        <li><strong>Google AdMob:</strong> Advertising ID for displaying relevant ads (you can opt-out in Android settings).</li>
-        <li><strong>Google Play Billing:</strong> To process subscriptions safely. We do not see your credit card details.</li>
+        <li><strong>Device Information:</strong> Model, OS version, unique device identifiers (for advertising and analytics).</li>
+        <li><strong>Usage Statistics:</strong> Screen views, session duration, and feature interaction.</li>
+        <li><strong>Crash Logs:</strong> Technical data regarding application failures (via Firebase Crashlytics).</li>
     </ul>
 
-    <h2>4. Data Retention and Deletion</h2>
-    <p>Your health data stays on your phone until you:</p>
+    <h2>3. Third-Party Services</h2>
+    <p>The Application integrates the following third-party services which may collect data in accordance with their own policies:</p>
     <ul>
-        <li>Manually delete entries in the app.</li>
-        <li>Clear the Application's cache/data in Android settings.</li>
-        <li>Uninstall the Application.</li>
+        <li><strong>Google AdMob:</strong> For displaying advertisements. AdMob uses the Advertising ID to show relevant ads.</li>
+        <li><strong>Google Firebase (Analytics & Crashlytics):</strong> To monitor app performance and user engagement.</li>
+        <li><strong>Google Play Billing:</strong> To securely manage your premium subscriptions. We never see or store your payment card details.</li>
+    </ul>
+    <p>You can find the Google Privacy Policy here: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+    <h2>4. Subscriptions and Payments</h2>
+    <p>If you choose to purchase a subscription, the transaction is handled entirely by the Google Play Store. Your subscription is subject to the Google Play Terms of Service. You can manage or cancel your subscription at any time within your Google Account settings.</p>
+
+    <h2>5. Data Retention and User Rights</h2>
+    <p>Since health data is stored locally, you have absolute control over it:</p>
+    <ul>
+        <li><strong>Deletion:</strong> You can delete any entry or all data by clearing the app cache or uninstalling the app.</li>
+        <li><strong>Access:</strong> You can view all your data directly within the Application.</li>
+        <li><strong>Portability:</strong> We provide features to export your data (e.g., CSV export) for your own records.</li>
     </ul>
 
-    <h2>5. Children’s Privacy</h2>
-    <p>The Application is not intended for children under 13. We do not knowingly collect any data from children. If we discover such data was provided, we will delete it immediately from local storage instructions.</p>
+    <h2>6. Children's Privacy</h2>
+    <p>Our Application is not directed at children under the age of 13. We do not knowingly collect personal information from children. If you are a parent and aware that your child has provided us with personal information, please contact us.</p>
 
-    <h2>6. Security</h2>
-    <p>We rely on standard Android security protocols to protect data stored on your device. Since we do not use cloud storage for your health logs, the security of your data largely depends on your device's security (PIN, biometrics).</p>
+    <h2>7. Security Measures</h2>
+    <p>We take the security of your data seriously. Local data is protected by the Android operating system's security features. We encourage you to use device-level security (PIN, fingerprint) to protect your information.</p>
 
-    <h2>7. Changes to This Policy</h2>
-    <p>We may update our Privacy Policy. Changes are effective immediately upon posting to this page. Continued use of the Application signifies your consent to the updated terms.</p>
+    <h2>8. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date at the top.</p>
 
-    <div class="footer-info">
+    <div style="margin-top: 40px; border-top: 1px solid #ddd; padding-top: 20px;">
         <h2>Contact Us</h2>
-        <p>If you have any questions about this Privacy Policy, please contact:</p>
-        <p><strong>Developer:</strong> Sergey Medvedev<br>
-        <strong>Email:</strong> <a href="mailto:ceryga@gmail.com">ceryga@gmail.com</a></p>
+        <p>For any questions about this Privacy Policy, please contact the Developer:</p>
+        <p><strong>Email:</strong> <a href="mailto:ceryga@gmail.com">ceryga@gmail.com</a></p>
     </div>
 </div>
 
